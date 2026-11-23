@@ -1,0 +1,44 @@
+
+.orders-page {
+  min-height: 65vh;
+  padding: 60px 8%;
+  background: #f8f6f2;
+}
+
+.orders-page h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.orders-subtitle {
+  color: #777;
+  margin-bottom: 30px;
+}
+
+.empty-orders,
+.order-card {
+  background: white;
+  padding: 25px;
+  margin: 20px 0;
+  border: 1px solid #e8e2d9;
+}
+
+.order-card p {
+  margin: 12px 0;
+  color: #666;
+}
+
+.order-card a,
+.empty-orders a {
+  display: inline-block;
+  padding: 12px 20px;
+  margin-top: 15px;
+  background: #171717;
+  color: white;
+  text-decoration: none;
+}
+
+.order-card a:hover,
+.empty-orders a:hover {
+  background: #a18463;
+}

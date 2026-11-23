@@ -1,0 +1,100 @@
+
+.tracking-page {
+  min-height: 65vh;
+  padding: 60px 8%;
+  background: #f8f6f2;
+  text-align: center;
+}
+
+.tracking-page h1 {
+  font-size: 34px;
+  color: #171717;
+  margin-bottom: 15px;
+}
+
+.tracking-page h3 {
+  font-size: 20px;
+  margin: 20px 0;
+}
+
+.tracking-page p {
+  color: #777;
+}
+
+.tracking-steps {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 15px;
+  max-width: 900px;
+  margin: 60px auto;
+  position: relative;
+}
+
+.tracking-step {
+  flex: 1;
+  text-align: center;
+  color: #999;
+}
+
+.tracking-step span {
+  display: flex;
+  width: 48px;
+  height: 48px;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #ccc;
+  border-radius: 50%;
+  margin: 0 auto 15px;
+  font-size: 18px;
+  background: white;
+}
+
+.tracking-step.completed {
+  color: #a18463;
+}
+
+.tracking-step.completed span {
+  background: #a18463;
+  color: white;
+  border-color: #a18463;
+}
+
+.tracking-page a {
+  display: inline-block;
+  padding: 13px 25px;
+  background: #171717;
+  color: white;
+  text-decoration: none;
+  margin-top: 15px;
+  transition: 0.3s;
+}
+
+.tracking-page a:hover {
+  background: #a18463;
+}
+
+@media (max-width: 600px) {
+  .tracking-page {
+    padding: 40px 20px;
+  }
+
+  .tracking-steps {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 25px;
+    margin: 40px auto;
+  }
+
+  .tracking-step {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    text-align: left;
+  }
+
+  .tracking-step span {
+    margin: 0;
+    flex-shrink: 0;
+  }
+}
